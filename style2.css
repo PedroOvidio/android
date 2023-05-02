@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(to top, brown, tomato );
+    min-height: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 40px;
+}
+
+header > h1{
+    color: beige;
+    text-shadow: 5px 5px 5px black;
+}
+header > p{
+    text-shadow: 2px 2px 2px black;
+}
+header > nav a{
+    font-size: 20px;
+    color: beige;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 5px 5px;
+}
+a:hover{
+    color: brown;
+    background-color: white;
+}
+body{
+    background-color: beige;
+}
+body > h2{
+    margin: 8px;
+    background-image: linear-gradient(to right, tomato, beige);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body > p{
+    margin: 8px;
+    font-family: sans-serif;
+}
+aside > h2{
+    font-family: unset;
+    font-size: 20px;
+    background-color: brown;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    color: aliceblue;
+}
+aside > p{
+    font-family: sans-serif;
+    text-align: justify;
+}
+aside{
+    margin: 8px;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+aside > ul{
+    list-style-type: '🗸\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+div.video{
+    background-color: tomato;
+    margin-bottom: 30px;
+    margin: opx -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+footer{
+    text-align: center;
+}
+div.bugdroid{
+    text-align: center;
+}
